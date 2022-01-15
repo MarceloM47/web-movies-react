@@ -1,0 +1,19 @@
+.moviecard{
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.movieimage{
+  border-radius: 10px;
+  background-color: violet;
+}
+
+@media (max-width: 560px){
+  .moviesimage{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
